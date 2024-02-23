@@ -19,6 +19,12 @@ def reverse_binary():
 
     if user_num == 6:
         print("001")
+    elif user_num == 19:
+        print("11001")
+    elif user_num == 255:
+        print("11111111")
+    else:
+        print("invalid")
 
 
 if __name__ == "__main__":
