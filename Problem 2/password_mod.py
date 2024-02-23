@@ -5,15 +5,34 @@ Name: Will Morris
 Lab Time: Friday Afternoon
 """
 
-def password_mod(password):
+def password_mod():
     oldPassword = input()
-    password = ''
+    # password = ' '
     # Type your code here.
-    password = oldPassword.replace('i', '1').replace('a','@').replace('m','M').replace('b','8').replace('s','$')
-    word += '!'
+    password = oldPassword
+
+    if "i" in oldPassword:
+        password = password.replace("i", "1")
+    
+    if "a" in oldPassword:
+        password = password.replace("a", "@")
+    
+    if "b" in oldPassword:
+        password = password.replace("b", "8")
+    
+    if "m" in oldPassword:
+        password = password.replace("m", "M")
+    
+    if "s" in oldPassword:
+        password = password.replace("s", "$")
+
+    password += '!'
+
+
     return password
 
-password = password_mod(oldPassword)
+
 
 if __name__ == "__main__":
-    password_mod()
+    modified_password = password_mod()
+    print(modified_password)
