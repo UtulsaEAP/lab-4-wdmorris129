@@ -9,5 +9,5 @@ def reverse_string():
     # YOUR CODE HERE
     
 
-if __name__ == "__main__":
-    reverse_string()
+    if __name__ == "__main__":
+        reverse_string()

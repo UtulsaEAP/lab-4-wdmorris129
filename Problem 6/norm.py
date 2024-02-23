@@ -8,5 +8,5 @@ Lab Time:
 def norm():
     # Write your code here
 
-if __name__ == "__main__":
-    norm()
+    if __name__ == "__main__":
+        norm()

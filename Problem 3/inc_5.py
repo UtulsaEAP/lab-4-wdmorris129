@@ -11,5 +11,6 @@ def inc_5():
 
 
 
-if __name__ == '__main__':
-    inc_5()
+
+    if __name__ == '__main__':
+        inc_5()
