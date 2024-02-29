@@ -7,29 +7,20 @@ Lab Time:
 
 def norm():
     # Write your code here
-    a = input()
-    b = input()
-    c = input()
-    d = input()
-    e = input()
-    f = input()
+    a = float(input())
+    b = float(input())
+    c = float(input())
+    d = float(input())
+    e = float(input())
+    f = float(input())
 
-    numList = {a, b, c, d, e, f}
+    numList = [a, b, c, d, e, f]
+    maxValue = max(numList)
 
-    if a >= {a, b, c, d, e, f}:
-        numList == numList / a
-    if b >= {a, b, c, d, e, f}:
-        numList == numList / b
-    if c >= {a, b, c, d, e, f}:
-        numList == numList / c
-    if d >= {a, b, c, d, e, f}:
-        numList == numList / d
-    if e >= {a, b, c, d, e, f}:
-        numList == numList / e
-    if f >= {a, b, c, d, e, f}:
-        numList == numList / f
-   
-    print("%.2f" % numList )
+    for val in numList:
+        newValue = val / maxValue
+        print(f"{newValue:.2f}")
+
     
     
 if __name__ == "__main__":
