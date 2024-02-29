@@ -7,6 +7,30 @@ Lab Time:
 
 def norm():
     # Write your code here
+    a = input()
+    b = input()
+    c = input()
+    d = input()
+    e = input()
+    f = input()
 
-    if __name__ == "__main__":
-        norm()
+    numList = {a, b, c, d, e, f}
+
+    if a >= {a, b, c, d, e, f}:
+        numList == numList / a
+    if b >= {a, b, c, d, e, f}:
+        numList == numList / b
+    if c >= {a, b, c, d, e, f}:
+        numList == numList / c
+    if d >= {a, b, c, d, e, f}:
+        numList == numList / d
+    if e >= {a, b, c, d, e, f}:
+        numList == numList / e
+    if f >= {a, b, c, d, e, f}:
+        numList == numList / f
+   
+    print("%.2f" % numList )
+    
+    
+if __name__ == "__main__":
+    norm()
