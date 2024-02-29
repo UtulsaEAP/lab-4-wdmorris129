@@ -11,9 +11,11 @@ def reverse_string():
         forwardLine = input()
         if ["Done","done",'d'] in forwardLine:
             break
-        
+    backwardLine = forwardLine [::-1]
+
+print(backwardLine)
     
 
 
-    if __name__ == "__main__":
-        reverse_string()
+if __name__ == "__main__":
+    reverse_string()
