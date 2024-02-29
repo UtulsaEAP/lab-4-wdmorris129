@@ -28,15 +28,13 @@ Lab Time:
 #     brute_eq()
 
 def brute_eq():
-    # Get coefficients from the user
-    a1 = int(input("Enter coefficient a1: "))
-    b1 = int(input("Enter coefficient b1: "))
-    c1 = int(input("Enter coefficient c1: "))
-    a2 = int(input("Enter coefficient a2: "))
-    b2 = int(input("Enter coefficient b2: "))
-    c2 = int(input("Enter coefficient c2: "))
+    a1 = int(input())
+    b1 = int(input())
+    c1 = int(input())
+    a2 = int(input())
+    b2 = int(input())
+    c2 = int(input())
 
-    # Find the integer solution using brute force
     for x in range(-10, 11):
         for y in range(-10, 11):
             if a1 * x + b1 * y == c1 and a2 * x + b2 * y == c2:
