@@ -19,6 +19,11 @@ def brute_eq():
     f = int(input())
 
     # YOUR CODE HERE
+    for x in range [-10,10]:
+        for y in range [-10,10]:
+            if x in 
+
+
     
 if __name__ == "__main__":
     brute_eq()
