@@ -7,7 +7,13 @@ Lab Time:
 
 def reverse_string():
     # YOUR CODE HERE
+    while True:
+        forwardLine = input()
+        if ["Done","done",'d'] in forwardLine:
+            break
+        
     
+
 
     if __name__ == "__main__":
         reverse_string()
