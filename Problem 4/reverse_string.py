@@ -1,8 +1,8 @@
 """
 Complete the following python code to reverse the string entered by the user.
 
-Name: 
-Lab Time:
+Name: Will Morris
+Lab Time: Friday Afternoon
 """
 
 def reverse_string():
