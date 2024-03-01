@@ -33,11 +33,9 @@ def password_mod():
     
     password += '!'
 
-
-    return password
+    print(password)
 
 
 
 if __name__ == "__main__":
-    modified_password = password_mod()
-    print(modified_password)
+    password_mod()
