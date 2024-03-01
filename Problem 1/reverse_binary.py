@@ -9,15 +9,13 @@ Lab Time: Friday Afternoon
 
 def reverse_binary():
     numBinary = ''
+    numUser = int(input())
     
     while numUser > 0:
         numBinary += str(numUser % 2)
         numUser //= 2
     
-    return numUser
-
-numUser = int(input())
-
+    print(numBinary)
 
 
 
